@@ -1,5 +1,5 @@
 
-.gallery {
+.gallery-wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 
-.gallery-list {
+.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
