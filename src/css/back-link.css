@@ -5,7 +5,10 @@
   margin-top: 32px;
   border: 1px solid;
   border-radius: 8px;
+  height: max-content;
+  width: max-content;
 }
+
 .back-link::before {
   content: '';
   position: absolute;

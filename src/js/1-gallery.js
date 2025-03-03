@@ -67,7 +67,7 @@ const images = [
   },
 ];
 
-const galleryList = document.querySelector(".gallery");
+const galleryList = document.querySelector(".gallery-list");
 
 const layout = images
   .map(
@@ -87,7 +87,7 @@ const layout = images
 
 galleryList.innerHTML = layout;
 
-const lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery-list a", {
   captions: true,
   captionSelector: "img",
   captionDelay: 250,
