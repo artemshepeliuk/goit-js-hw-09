@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 24px;
+    padding: 24px 0;
+    max-width: 1180px;
+}
+
+.gallery-item {
+    width: 360px;
+    height: 240px;
+}
+
+.gallery-image {
+    display: block;
+    width: 360px;
+    height: 100%;
+}
